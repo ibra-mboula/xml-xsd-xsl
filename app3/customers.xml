@@ -1,0 +1,142 @@
+<clients>
+  <client id="103">
+    <contact>
+      <nom>Schmitt</nom>
+      <prenom>Carine </prenom>
+      <telephone>40.32.2555</telephone>
+    </contact>
+    <addresse>
+      <pays>France</pays>
+      <ville>Nantes</ville>
+      <rue> rue Royale</rue>
+      <numero>54</numero>
+      <cp>44000</cp>
+    </addresse>
+  </client>
+  <client id="112">
+    <contact>
+      <nom>King</nom>
+      <prenom>Jean</prenom>
+      <telephone>7025551838</telephone>
+    </contact>
+    <addresse>
+      <pays>USA</pays>
+      <ville>Las Vegas</ville>
+      <rue> Strong St.</rue>
+      <numero>8489</numero>
+      <cp>83030</cp>
+    </addresse>
+  </client>
+  <client id="114">
+    <contact>
+      <nom>Ferguson</nom>
+      <prenom>Peter</prenom>
+      <telephone>03 9520 4555</telephone>
+    </contact>
+    <addresse>
+      <pays>Australia</pays>
+      <ville>Melbourne</ville>
+      <rue> St Kilda Road</rue>
+      <numero>636</numero>
+      <cp>3004</cp>
+    </addresse>
+  </client>
+  <client id="119">
+    <contact>
+      <nom>Labrune</nom>
+      <prenom>Janine </prenom>
+      <telephone>40.67.8555</telephone>
+    </contact>
+    <addresse>
+      <pays>France</pays>
+      <ville>Nantes</ville>
+      <rue> rue des Cinquante Otages</rue>
+      <numero>67</numero>
+      <cp>44000</cp>
+    </addresse>
+  </client>
+  <client id="121">
+    <contact>
+      <nom>Bergulfsen</nom>
+      <prenom>Jonas </prenom>
+      <telephone>07-98 9555</telephone>
+    </contact>
+    <addresse>
+      <pays>Norway</pays>
+      <ville>Stavern</ville>
+      <rue>Erling Skakkes gate </rue>
+      <numero>78</numero>
+      <cp>4110</cp>
+    </addresse>
+  </client>
+  <client id="124">
+    <contact>
+      <nom>Nelson</nom>
+      <prenom>Susan</prenom>
+      <telephone>4155551450</telephone>
+    </contact>
+    <addresse>
+      <pays>USA</pays>
+      <ville>San Rafael</ville>
+      <rue> Strong St.</rue>
+      <numero>5677</numero>
+      <cp>97562</cp>
+    </addresse>
+  </client>
+  <client id="125">
+    <contact>
+      <nom>Piestrzeniewicz</nom>
+      <prenom>Zbyszek </prenom>
+      <telephone>(26) 642-7555</telephone>
+    </contact>
+    <addresse>
+      <pays>Poland</pays>
+      <ville>Warszawa</ville>
+      <rue>ul. Filtrowa </rue>
+      <numero>68</numero>
+      <cp>1012</cp>
+    </addresse>
+  </client>
+  <client id="128">
+    <contact>
+      <nom>Keitel</nom>
+      <prenom>Roland</prenom>
+      <telephone>+49 69 66 90 2555</telephone>
+    </contact>
+    <addresse>
+      <pays>Germany</pays>
+      <ville>Frankfurt</ville>
+      <rue>Lyonerstr. </rue>
+      <numero>34</numero>
+      <cp>60528</cp>
+    </addresse>
+  </client>
+  <client id="129">
+    <contact>
+      <nom>Murphy</nom>
+      <prenom>Julie</prenom>
+      <telephone>6505555787</telephone>
+    </contact>
+    <addresse>
+      <pays>USA</pays>
+      <ville>San Francisco</ville>
+      <rue> North Pendale Street</rue>
+      <numero>5557</numero>
+      <cp>94217</cp>
+    </addresse>
+  </client>
+  <client id="131">
+    <contact>
+      <nom>Lee</nom>
+      <prenom>Kwai</prenom>
+      <telephone>2125557818</telephone>
+    </contact>
+    <addresse>
+      <pays>USA</pays>
+      <ville>NYC</ville>
+      <rue> Long Airport Avenue</rue>
+      <numero>897</numero>
+      <cp>10022</cp>
+    </addresse>
+  </client>
+</clients>

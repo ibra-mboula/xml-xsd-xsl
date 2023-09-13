@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="clients"> <!-- clients = balise racine -->
+
+    <xs:complexType> <!-- complexType c'est balise qui contient d'autre balises imbriquées -->
+      <xs:sequence> 
+
+        <xs:element maxOccurs="unbounded" name="client"> <!-- maxOccurs pour dire que c'est une balise qui se repète plusieurs fois -->
+          <xs:complexType>
+            <xs:sequence>
+
+              <xs:element name="contact"> <!-- pas besoin de preciser le type, c'est juste un balise qui va en contenir d'autre -->
+                <xs:complexType>
+                  <xs:sequence>
+
+                    <xs:element name="nom" type="xs:string" />
+                    <xs:element name="prenom" type="xs:string" />
+                    <xs:element name="telephone" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="addresse">
+                <xs:complexType>
+                  <xs:sequence>
+                  
+                    <xs:element name="pays" type="xs:string" />
+                    <xs:element name="ville" type="xs:string" />
+                    <xs:element name="rue" type="xs:string" />
+                    <xs:element name="numero" type="xs:unsignedShort" />
+                    <xs:element name="cp" type="xs:unsignedInt" />
+                  </xs:sequence>
+
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:unsignedByte" use="required" />
+
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
